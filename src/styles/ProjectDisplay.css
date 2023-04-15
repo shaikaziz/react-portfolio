@@ -21,8 +21,19 @@
   font-size: 40px;
   color: #3e497a;
 }
+.project .projectpoints {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align:justify;
+    font-size: 30px;
+    color: #3e497a;
+  }
 
 .project svg {
   font-size: 60px;
   color: #3e497a;
+}
+.project .img{
+    height: 400px;
+    /* width: 100px; */
 }

@@ -23,12 +23,13 @@ function Navbar() {
                     <ReorderIcon />
                 </button>
             </div>
-            <div className="links">
-                <Link to="/"> Home </Link>
-                <Link to="/projects"> Projects </Link>
-                <Link to="/experience"> Experience </Link>
+            <div className="links" >
+
+                <Link to="/" className="homelink"> Home </Link>
+                <Link to="/projects" className="homelink"> Projects </Link>
+                <Link to="/experience" className="homelink"> Experience </Link>
             </div>
-        </div>
+        </div >
     );
 }
 

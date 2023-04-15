@@ -5,6 +5,7 @@
     position: sticky;
     top: 0;
     background-attachment: fixed;
+    z-index: 9999;
 }
 
 .links {
@@ -16,6 +17,12 @@
     color: white;
     position: sticky;
     top: 0;
+}
+.homelink:hover{
+    /* color: yellowgreen; */
+    color: #e9d35b;
+
+    font-size: 175%;
 }
 
 .navbar a {
@@ -50,6 +57,7 @@
 }
 
 #open .links {
+
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 100px;
