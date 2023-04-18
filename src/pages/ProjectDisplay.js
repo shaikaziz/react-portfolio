@@ -11,7 +11,7 @@ function ProjectDisplay() {
         <div className="project">
             <h1> {project.name}</h1>
             <img src={project.image} className="img" />
-            <p>
+            <p className="skillsset">
                 <b>Skills:</b> {project.skills}
             </p>
             <p className="projectpoints">{ project.details}</p>
